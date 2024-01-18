@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../GridLightsApp/app.scss'
+import '../GridLightsApp/indexgl.scss'
 
 const AppGL = ()=>{
     const [order, setOrder] = useState([]);
