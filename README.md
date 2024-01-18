@@ -4,5 +4,5 @@
 <ul>
 <li>Grid Lights</li>
 <li>Count Down Timer- To run just open index file</li>
-  
+<li>EMI Calculator</li>
 </ul>

@@ -34,11 +34,13 @@ form label {
   margin-bottom: 12px;
 }
 form input[type=number] {
+  font-size: 18px;
   padding: 8px;
   width: 60px;
   height: 30px;
-  border-radius: 6px;
-  border: none;
+  background: transparent;
+  border:unset;
+  border-bottom: 1px solid orange;
 }
 
 /*# sourceMappingURL=index.css.map */
