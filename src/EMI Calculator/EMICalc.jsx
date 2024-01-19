@@ -70,9 +70,11 @@ const EMICalculator = ()=>{
                 <p>Down Payment</p>
                 <label htmlFor="downpayment">{downPayment}</label>
                 <input id="downpayment" type="range" value={downPayment} min={0} max={cost} onChange={updateEMI} />
+                <p>Total Down Payment-{(Number(downPayment)+(cost-downPayment)*fee/100).toFixed(0)}</p>
                 <p>Loan Amount per month</p>
                 <label htmlFor="loan">{emi}</label>
                 <input id="loan" type="range" value={emi} min={calculateEMI(cost)} max={calculateEMI(0)} onChange={updateDownPayment} />
+                <p>Total Loan-{(emi*tenure).toFixed(0)}</p>
                 <p>Tenure</p>
                 <div className="tenure-container">
                 {Tenures.map((t)=>{
