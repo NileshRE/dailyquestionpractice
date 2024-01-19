@@ -1,11 +1,11 @@
-import CountDownTimer from "../src/CountDownTimer/CDT.jsx"
-import AppGL from "../src/GridLightsApp/AppGL.jsx"
+import AppGL from "./GridLightsApp/AppGL.jsx"
+import EMICalculator from "./EMI Calculator/EMICalc.jsx"
 
 function App() {
   return (
     <>
       <AppGL />
-      <CountDownTimer />
+      <EMICalculator />
     </>
   )
 }
